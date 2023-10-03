@@ -1,6 +1,6 @@
 # GatherTweet-Backend
 
-GatherTweet 서버 (리뉴얼 버전)
+GatherTweet 서버
 
 ## REST API
 
@@ -19,7 +19,8 @@ GatherTweet 서버 (리뉴얼 버전)
 
 ## 시작하기(개발 버전)
 
-1. `.env.dev.template` 을 참고해 루트 디렉토리에 `.env.development` 환경변수를 생성합니다.
+1. 환경변수를 설정합니다.
+ `.env.dev.template` 을 참고해 루트 디렉토리에 `.env.development` 환경변수를 생성합니다.
 
 | variable        | example                                    | description         |
 | --------------- | ------------------------------------------ | ------------------- |
@@ -33,7 +34,7 @@ GatherTweet 서버 (리뉴얼 버전)
 2. 의존 모듈을 설치합니다.
 
 ```shell
-yarn ci
+yarn install
 ```
 
 <br>
